@@ -31,5 +31,13 @@ public class ActivityMain extends Activity {
                 startActivity(intent);
             }
         });
+
+        fragment_dinamico.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ActivityMain.this, ActivityFragmentDinamico.class);
+                startActivity(intent);
+            }
+        });
     }
 }

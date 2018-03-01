@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ActivityFragmentEstatico"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityFragmentEstatico" android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityFragmentDinamico" android:screenOrientation="portrait"/>
     </application>
 </manifest>
